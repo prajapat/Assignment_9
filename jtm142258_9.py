@@ -1,21 +1,22 @@
 #!/usr/bin/python
 
-#initialization of variables
-Happy = 0
-Sad = 0
-Sarcastic = 0
-Surprised = 0
-Crook = 0
-Neutral = 0
-Angry = 0
+
 
 #opening and reading a file
 with open('content.txt','r') as file:
+	#initialization of variables
+	Happy = 0
+	Sad = 0
+	Sarcastic = 0
+	Surprised = 0
+	Crook = 0
+	Neutral = 0
+	Angry = 0
 	for line in file.readlines():
-
 		#Calculation of A's Emoticons
 		if line[0] == "A":
         		for words in line.split():#splitting the line word by word
+          	#print(words)
 
 				#counting emoticons
 				if ( words == ':)' or words == ':D' ):
@@ -42,27 +43,38 @@ with open('content.txt','r') as file:
     	print"Angry = ",Angry
 	print"\n"
 
+#opening and reading a file
+with open('content.txt','r') as file:
+	#initialization of variables
+	Happy = 0
+	Sad = 0
+	Sarcastic = 0
+	Surprised = 0
+	Crook = 0
+	Neutral = 0
+	Angry = 0
+	for line in file.readlines():
 
+		#Calculation of B's Emoticons
+		if line[0] == "B":
+				for words in line.split():#splitting the line word by word
+		  	#print(words)
 
-	#Calculation of B's Emoticons
-	if line[0] == "B":
-        	for words in line.split():#splitting the line word by word
-         
-				#counting emoticons
-			if ( words == ':)' or words == ':D' ):
-			    	Happy += 1
-			elif ( words == ':(' or words == ":'(" ):
-			    	Sad += 1
-		       	elif ( words == ':P' or words == ';)' ):
-			    	Sarcastic += 1
-		       	elif ( words == ':-o' or words == 'O_O' ):
-			  	Surprised += 1
-			elif ( words == 'B-)' or words == ';)' ):
-			    	Crook += 1
-			elif ( words == ':-/' or words == '=_=' ):
-			    	Neutral += 1
-			elif ( words == 'x-(' or words == '>_<' ):
-			    	Angry += 1
+					#counting emoticons
+					if ( words == ':)' or words == ':D' ):
+				    		Happy += 1
+					elif ( words == ':(' or words == ":'(" ):
+				    		Sad += 1
+			       		elif ( words == ':P' or words == ';)' ):
+				    		Sarcastic += 1
+			       		elif ( words == ':-o' or words == 'O_O' ):
+				  		Surprised += 1
+					elif ( words == 'B-)' or words == ';)' ):
+				    		Crook += 1
+					elif ( words == ':-/' or words == '=_=' ):
+				    		Neutral += 1
+					elif ( words == 'x-(' or words == '>_<' ):
+				    		Angry += 1
 	print"B's Emoticons are:-"
     	print"Happy = ",Happy
    	print"Sad = ",Sad
@@ -73,26 +85,38 @@ with open('content.txt','r') as file:
     	print"Angry = ",Angry
 	print"\n"
 
-	#Calculation of C's Emoticons
-	if line[0] == "C":
-        	for words in line.split():#splitting the line word by word
-          	#print(words)
+#opening and reading a file
+with open('content.txt','r') as file:
+	#initialization of variables
+	Happy = 0
+	Sad = 0
+	Sarcastic = 0
+	Surprised = 0
+	Crook = 0
+	Neutral = 0
+	Angry = 0
+	for line in file.readlines():
 
-				#counting emoticons
-			if ( words == ':)' or words == ':D' ):
-			    	Happy += 1
-			elif ( words == ':(' or words == ":'(" ):
-			    	Sad += 1
-		       	elif ( words == ':P' or words == ';)' ):
-			    	Sarcastic += 1
-		       	elif ( words == ':-o' or words == 'O_O' ):
-			  	Surprised += 1
-			elif ( words == 'B-)' or words == ';)' ):
-			    	Crook += 1
-			elif ( words == ':-/' or words == '=_=' ):
-			    	Neutral += 1
-			elif ( words == 'x-(' or words == '>_<' ):
-			    	Angry += 1
+		#Calculation of C's Emoticons
+		if line[0] == "C":
+				for words in line.split():#splitting the line word by word
+		  	#print(words)
+
+					#counting emoticons
+					if ( words == ':)' or words == ':D' ):
+				    		Happy += 1
+					elif ( words == ':(' or words == ":'(" ):
+				    		Sad += 1
+			       		elif ( words == ':P' or words == ';)' ):
+				    		Sarcastic += 1
+			       		elif ( words == ':-o' or words == 'O_O' ):
+				  		Surprised += 1
+					elif ( words == 'B-)' or words == ';)' ):
+				    		Crook += 1
+					elif ( words == ':-/' or words == '=_=' ):
+				    		Neutral += 1
+					elif ( words == 'x-(' or words == '>_<' ):
+				    		Angry += 1
 	print"C's Emoticons are:-"
     	print"Happy = ",Happy
    	print"Sad = ",Sad
@@ -103,26 +127,38 @@ with open('content.txt','r') as file:
     	print"Angry = ",Angry
 	print"\n"
 
-	#Calculation of E's Emoticons
-	if line[0] == "E":
-        	for words in line.split():#splitting the line word by word
-          	#print(words)
+#opening and reading a file
+with open('content.txt','r') as file:
+	#initialization of variables
+	Happy = 0
+	Sad = 0
+	Sarcastic = 0
+	Surprised = 0
+	Crook = 0
+	Neutral = 0
+	Angry = 0
+	for line in file.readlines():
 
-				#counting emoticons
-			if ( words == ':)' or words == ':D' ):
-			    	Happy += 1
-			elif ( words == ':(' or words == ":'(" ):
-			    	Sad += 1
-		       	elif ( words == ':P' or words == ';)' ):
-			    	Sarcastic += 1
-		       	elif ( words == ':-o' or words == 'O_O' ):
-			  	Surprised += 1
-			elif ( words == 'B-)' or words == ';)' ):
-			    	Crook += 1
-			elif ( words == ':-/' or words == '=_=' ):
-			    	Neutral += 1
-			elif ( words == 'x-(' or words == '>_<' ):
-			    	Angry += 1
+		#Calculation of E's Emoticons
+		if line[0] == "E":
+				for words in line.split():#splitting the line word by word
+		  	#print(words)
+
+					#counting emoticons
+					if ( words == ':)' or words == ':D' ):
+				    		Happy += 1
+					elif ( words == ':(' or words == ":'(" ):
+				    		Sad += 1
+			       		elif ( words == ':P' or words == ';)' ):
+				    		Sarcastic += 1
+			       		elif ( words == ':-o' or words == 'O_O' ):
+				  		Surprised += 1
+					elif ( words == 'B-)' or words == ';)' ):
+				    		Crook += 1
+					elif ( words == ':-/' or words == '=_=' ):
+				    		Neutral += 1
+					elif ( words == 'x-(' or words == '>_<' ):
+				    		Angry += 1
 	print"E's Emoticons are:-"
     	print"Happy = ",Happy
    	print"Sad = ",Sad
@@ -132,27 +168,39 @@ with open('content.txt','r') as file:
     	print"Neutral = ",Neutral
     	print"Angry = ",Angry
 	print"\n"
-		
-	#Calculation of G's Emoticons
-	if line[0] == "G":
-        	for words in line.split():#splitting the line word by word
-          	#print(words)
 
-				#counting emoticons
-			if ( words == ':)' or words == ':D' ):
-			   	Happy += 1
-			elif ( words == ':(' or words == ":'(" ):
-			   	Sad += 1
-		       	elif ( words == ':P' or words == ';)' ):
-			    	Sarcastic += 1
-		       	elif ( words == ':-o' or words == 'O_O' ):
-			  	Surprised += 1
-			elif ( words == 'B-)' or words == ';)' ):
-			    	Crook += 1
-			elif ( words == ':-/' or words == '=_=' ):
-			    	Neutral += 1
-			elif ( words == 'x-(' or words == '>_<' ):
-			    	Angry += 1
+#opening and reading a file
+with open('content.txt','r') as file:
+	#initialization of variables
+	Happy = 0
+	Sad = 0
+	Sarcastic = 0
+	Surprised = 0
+	Crook = 0
+	Neutral = 0
+	Angry = 0
+	for line in file.readlines():
+		
+		#Calculation of G's Emoticons
+		if line[0] == "G":
+				for words in line.split():#splitting the line word by word
+		  	#print(words)
+
+					#counting emoticons
+					if ( words == ':)' or words == ':D' ):
+				    		Happy += 1
+					elif ( words == ':(' or words == ":'(" ):
+				    		Sad += 1
+			       		elif ( words == ':P' or words == ';)' ):
+				    		Sarcastic += 1
+			       		elif ( words == ':-o' or words == 'O_O' ):
+				  		Surprised += 1
+					elif ( words == 'B-)' or words == ';)' ):
+				    		Crook += 1
+					elif ( words == ':-/' or words == '=_=' ):
+				    		Neutral += 1
+					elif ( words == 'x-(' or words == '>_<' ):
+				    		Angry += 1
 	print"G's Emoticons are:-"
     	print"Happy = ",Happy
    	print"Sad = ",Sad
@@ -163,22 +211,34 @@ with open('content.txt','r') as file:
     	print"Angry = ",Angry
 	print"\n"
 
-	for words in line.split():#splitting the line word by word	
-			#counting emoticons
-			if ( words == ':)' or words == ':D' ):
-			    	Happy += 1
-			elif ( words == ':(' or words == ":'(" ):
-			    	Sad += 1
-		       	elif ( words == ':P' or words == ';)' ):
-			    	Sarcastic += 1
-		       	elif ( words == ':-o' or words == 'O_O' ):
-			  	Surprised += 1
-			elif ( words == 'B-)' or words == ';)' ):
-			    	Crook += 1
-			elif ( words == ':-/' or words == '=_=' ):
-			    	Neutral += 1
-			elif ( words == 'x-(' or words == '>_<' ):
-			    	Angry += 1	
+#opening and reading a file
+with open('content.txt','r') as file:
+	#initialization of variables
+	Happy = 0
+	Sad = 0
+	Sarcastic = 0
+	Surprised = 0
+	Crook = 0
+	Neutral = 0
+	Angry = 0
+	for line in file.readlines():
+
+		for words in line.split():#splitting the line word by word	
+				#counting emoticons
+				if ( words == ':)' or words == ':D' ):
+				    	Happy += 1
+				elif ( words == ':(' or words == ":'(" ):
+				    	Sad += 1
+			       	elif ( words == ':P' or words == ';)' ):
+				    	Sarcastic += 1
+			       	elif ( words == ':-o' or words == 'O_O' ):
+				  	Surprised += 1
+				elif ( words == 'B-)' or words == ';)' ):
+				    	Crook += 1
+				elif ( words == ':-/' or words == '=_=' ):
+				    	Neutral += 1
+				elif ( words == 'x-(' or words == '>_<' ):
+				    	Angry += 1	
 
 	
 Emoticons_Sum = Happy + Sad + Sarcastic + Surprised + Crook + Neutral + Angry 	#Sum of Emoticons
